@@ -63,3 +63,60 @@ margin: 30px;
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media (max-width: 768px) {
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .score-board {
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+
+    #user-score,
+    #computer-score {
+        font-size: 2.5rem;
+    }
+    .msg-container{
+        max-height: auto;
+        max-width: auto;
+    }
+    #msg {
+        font-size: 6vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .choice {
+        height: 80px;
+        width: 80px;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .score-board {
+        font-size: 1rem;
+        gap: 1rem;
+    }
+
+    #user-score,
+    #computer-score {
+        font-size: 1.5rem;
+    }
+    .msg-container{
+        max-height: auto;
+        max-width: auto;
+    }
+    #msg {
+        font-size: 2vh;
+    }
